@@ -1,28 +1,33 @@
 .TRANSPORTATION {
-	text-align: center;
+    text-align: center;
 }
+
 #Conquering_Distances {
-	color: darkblue;
-	font-size: x-large;
-	font-family: fantasy;
+    color: darkblue;
+    font-size: x-large;
+    font-family: fantasy;
 }
+
 #Roadways {
-	color: red;
-	font-family: sans-serif;
-	font-size: large;
+    color: red;
+    font-family: sans-serif;
+    font-size: large;
 }
+
 #Railways {
-	color: chocolate;
-	font-family: Helvetica;
-	font-size: large;
+    color: chocolate;
+    font-family: Helvetica;
+    font-size: large;
 }
+
 .Waterways {
-	color: blue;
-	font-size: large;
-	font-family: monospace;
+    color: blue;
+    font-size: large;
+    font-family: monospace;
 }
+
 .Airways {
-	color: crimson;
-	font-family: unset;
-	font-size: large;
+    color: crimson;
+    font-family: unset;
+    font-size: large;
 }
