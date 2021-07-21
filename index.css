@@ -66,3 +66,7 @@ button:hover {
     color: #fff;
     transform: translateY(-7px);
 }
+
+a:link {
+    text-decoration: none;
+}
