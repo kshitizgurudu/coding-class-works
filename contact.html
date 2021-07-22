@@ -4,30 +4,94 @@
 <head>
     <title></title>
     <style>
-
+        body {
+            background-color: lightcyan;
+        }
+        
+        td,
+        tr {
+            padding: 20px;
+        }
+        
+        table {
+            font-size: x-large;
+            color: dodgerblue;
+            text-align: center;
+        }
+        
+        .contact {
+            margin: auto;
+            width: 500px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 20px 40px blue;
+        }
+        
+        #heading {
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: dodgerblue;
+            text-align: center;
+        }
+        
+        #submit {
+            padding: 15px;
+            background-color: skyblue;
+            border: 1px solid blue;
+            border-radius: 10px;
+            text-align: center;
+            font-size: large;
+        }
+        
+        #submit:hover {
+            background-color: steelblue;
+            color: white;
+            padding: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        
+        #textboxid {
+            height: 100px;
+            font-size: 14pt;
+        }
     </style>
-    <script>
-    </script>
+
 </head>
 
 <body>
-    <h1>Contact Us</h1>
-    <h2>Hare Krishna! Do you have any questions, comments, or suggestions? Feel free to send us a message.</h2>
-    <form action="" method="POST">
-        <label>Your Email</label>
-        <input type="email" name="your-email" class="form-control form-control-lg" required id="id_your-email"><br>
+    <div id="heading">
+        <h1>Contact Us</h1>
+        <h2>Hare Krishna! Do you have any questions, comments, or suggestions? Feel free to send us a message.</h2>
+    </div>
 
-        <label>Your message</label>
-        <textarea name="message" cols="40" rows="10" class="form-control form-control-lg" required id="id_message"></textarea>
+    <div class="contact">
+        <form>
+            <table>
+                <tr>
+                    <td><label>Your Name</label></td>
+                    <td><input type="text" id="textboxid" name="name" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td><input type="text" id="textboxid" name="phone no." placeholder="Enter Your Phone Number"></td>
+                </tr>
+                <tr>
+                    <td><label>Your Email ID</label></td>
+                    <td><input type="email" id="textboxid" name="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td><label>Your Message</label></td>
+                    <td><textarea name="message" id="textboxid" placeholder="Enter Your Message"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Submit" id="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
 
-        <label for="" class="col-12 col-sm-4 col-md-3 col-lg-3 col-form-label"><label for="id_wagtailcaptcha"></label></label>
-        <script type="text/javascript">
-            // Submit function to be called, after reCAPTCHA was successful.
-            var onSubmit_9251eee29d4341bf99e577558f9ea514 = function(token) {
-                console.log("reCAPTCHA validated for 'data-widget-uuid=\"9251eee29d4341bf99e577558f9ea514\"'")
-            };
-        </script>
-    </form>
 
 </body>
 
