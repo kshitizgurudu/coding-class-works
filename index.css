@@ -70,3 +70,29 @@ button:hover {
 a:link {
     text-decoration: none;
 }
+
+ul.Contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*scroll*/
+    background-color: crimson;
+}
+
+li.Contact {
+    float: left;
+    /*align*/
+}
+
+li.Contact a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.Contact a:hover {
+    background-color: lightseagreen;
+}
