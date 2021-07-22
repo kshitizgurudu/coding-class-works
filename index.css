@@ -96,3 +96,7 @@ li.Contact a {
 li.Contact a:hover {
     background-color: lightseagreen;
 }
+
+ul {
+    list-style-type: none;
+}
