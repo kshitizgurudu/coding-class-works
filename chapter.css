@@ -12,3 +12,7 @@ button:hover {
     color: #fff;
     transform: translateY(-7px);
 }
+
+body {
+    background-color: aquamarine;
+}
