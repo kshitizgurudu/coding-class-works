@@ -76,12 +76,15 @@ ol {
     background-color: steelblue;
 }
 
-li {
+li,
+#Contact {
     float: left;
     color: red;
 }
 
-li a {
+li,
+a,
+#Contact {
     display: block;
     color: white;
     text-align: center;
@@ -89,7 +92,8 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover,
+#Contact {
     background-color: red;
     color: darkblue;
 }
