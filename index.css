@@ -60,16 +60,8 @@ a:link {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-}
-
-#Contact {
-    text-align: right;
-    height: 10px;
-}
-
-ul {
+ul,
+#nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -78,11 +70,13 @@ ul {
     font-family: 'Pacifico', cursive;
 }
 
-li {
+li,
+#nav {
     float: right;
 }
 
-li a {
+li a,
+#nav {
     display: block;
     color: white;
     text-align: center;
@@ -90,11 +84,13 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active),
+#nav {
     background-color: steelblue;
     font-size: large;
 }
 
-.active {
+.active,
+#nav {
     background-color: #04AA6D;
 }
