@@ -68,7 +68,7 @@ ul {
     text-align: right;
 }
 
-ol {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -76,15 +76,13 @@ ol {
     background-color: steelblue;
 }
 
-li,
-#Contact {
+li {
     float: left;
     color: red;
 }
 
 li,
-a,
-#Contact {
+a {
     display: block;
     color: white;
     text-align: center;
@@ -92,8 +90,7 @@ a,
     text-decoration: none;
 }
 
-li a:hover,
-#Contact {
+li a:hover {
     background-color: red;
     color: darkblue;
 }
