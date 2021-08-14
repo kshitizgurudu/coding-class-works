@@ -60,8 +60,7 @@ a:link {
     text-decoration: none;
 }
 
-ul,
-#nav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -70,13 +69,11 @@ ul,
     font-family: 'Pacifico', cursive;
 }
 
-li,
-#nav {
+li {
     float: right;
 }
 
-li a,
-#nav {
+li {
     display: block;
     color: white;
     text-align: center;
@@ -84,13 +81,11 @@ li a,
     text-decoration: none;
 }
 
-li a:hover:not(.active),
-#nav {
+li a:hover:not(.active) {
     background-color: steelblue;
     font-size: large;
 }
 
-.active,
-#nav {
+.active {
     background-color: #04AA6D;
 }
