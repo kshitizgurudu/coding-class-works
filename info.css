@@ -19,7 +19,7 @@ h1 {
     font-size: large;
 }
 
-button {
+#header {
     color: maroon;
     padding: 15px;
     border: 5px solid yellow;
@@ -27,7 +27,7 @@ button {
     background-color: peru;
 }
 
-button:hover {
+#header:hover {
     background-color: royalblue;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
