@@ -46,7 +46,7 @@
 .right {
     width: 500px;
     height: 500px;
-    background-color: blue;
+    background-color: #CD853F;
     float: right;
     /*Code for left div*/
     margin-right: 10px;
@@ -60,6 +60,7 @@
     /*Code for bhakti heading*/
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #education {
@@ -68,6 +69,7 @@
     /*Code for education heading*/
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .list1 {
