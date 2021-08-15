@@ -1,6 +1,6 @@
 /*Code for navigation bar starts*/
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,12 +8,12 @@ ul {
     background-color: deepskyblue;
 }
 
-li {
+.navbar li {
     float: right;
     font-family: 'Pacifico', cursive;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -21,11 +21,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.navbar li a:hover:not(.active) {
     background-color: lightskyblue;
 }
 
-.active {
+.navbar .active {
     background-color: #04AA6D;
 }
 
