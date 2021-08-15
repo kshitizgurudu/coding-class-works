@@ -46,7 +46,7 @@
 .right {
     width: 500px;
     height: 500px;
-    background-color: #4169E1;
+    background-color: #B0E0E6;
     float: right;
     /*Code for left div*/
     margin-right: 10px;
@@ -75,9 +75,15 @@
 .list1 {
     /* Code for list1*/
     list-style-type: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8B4513;
 }
 
 #list2 {
     /* Code for list2*/
     list-style-type: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #008080;
 }
