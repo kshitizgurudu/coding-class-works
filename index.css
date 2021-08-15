@@ -1,3 +1,5 @@
+/*Code for navigation bar starts*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,22 +29,51 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 
+
+/*Code for navigation bar ends*/
+
 .left {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     background-color: green;
     float: left;
+    /*Code for left div*/
     margin-left: 10px;
     margin-top: 10px;
     border: 10px solid blueviolet;
 }
 
 .right {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     background-color: blue;
     float: right;
+    /*Code for left div*/
     margin-right: 10px;
     margin-top: 10px;
     border: 10px solid blueviolet;
+}
+
+#Bhakti {
+    text-transform: capitalize;
+    text-shadow: 4px 2px 10px blue;
+    /*Code for bhakti heading*/
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#education {
+    text-transform: capitalize;
+    text-shadow: 4px 2px 10px red;
+    /*Code for education heading*/
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list1 {
+    /* Code for list1*/
+}
+
+#list2 {
+    /* Code for list2*/
 }
