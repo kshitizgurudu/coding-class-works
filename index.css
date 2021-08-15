@@ -72,8 +72,10 @@ li a:hover:not(.active) {
 
 .list1 {
     /* Code for list1*/
+    list-style-type: none;
 }
 
 #list2 {
     /* Code for list2*/
+    list-style-type: none;
 }
