@@ -72,7 +72,7 @@
     text-align: center;
 }
 
-.list1 li {
+.list1 ul {
     /* Code for list1*/
     list-style-type: none;
     font-size: large;
@@ -80,7 +80,7 @@
     color: #8B4513;
 }
 
-#list2 li {
+#list2 ul {
     /* Code for list2*/
     list-style-type: none;
     font-size: large;
