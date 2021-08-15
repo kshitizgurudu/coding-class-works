@@ -1,79 +1,17 @@
-body {
-    background-color: lightgreen;
-}
-
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-a {
-    font-family: 'Courier New', Courier, monospace;
-    color: darkblue;
-}
-
-a:hover {
-    color: crimson;
-}
-
-#welcome {
-    text-decoration: underline;
-    text-shadow: 4px 2px 10px darkgreen;
-    text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#education {
-    text-transform: capitalize;
-    text-shadow: 4px 2px 10px red;
-    text-decoration: underline;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#Bhakti {
-    text-transform: capitalize;
-    text-shadow: 4px 2px 10px blue;
-    text-decoration: underline;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-li {
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-button {
-    color: maroon;
-    padding: 15px;
-    border: 5px solid yellow;
-    border-radius: 10px;
-    background-color: peru;
-}
-
-button:hover {
-    background-color: royalblue;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-}
-
-a:link {
-    text-decoration: none;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: deepskyblue;
-    font-family: 'Pacifico', cursive;
 }
 
 li {
     float: right;
+    font-family: 'Pacifico', cursive;
 }
 
-li {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -82,10 +20,29 @@ li {
 }
 
 li a:hover:not(.active) {
-    background-color: steelblue;
-    font-size: large;
+    background-color: lightskyblue;
 }
 
 .active {
     background-color: #04AA6D;
+}
+
+.left {
+    width: 700px;
+    height: 700px;
+    background-color: green;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 10px solid blueviolet;
+}
+
+.right {
+    width: 700px;
+    height: 700px;
+    background-color: blue;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 10px solid blueviolet;
 }
