@@ -75,7 +75,7 @@
 .list1 ul {
     /* Code for list1*/
     list-style-type: none;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Pacifico', cursive;
     color: #8B4513;
 }
@@ -83,7 +83,7 @@
 #list2 ul {
     /* Code for list2*/
     list-style-type: none;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Pacifico', cursive;
     color: #008080;
 }
