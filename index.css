@@ -40,9 +40,9 @@
     /*Code for left div*/
     margin-top: 10px;
     margin-left: 20px;
-    border: 5px solid #FF4500;
+    border: 10px solid #FF4500;
     border-radius: 20px;
-    box-shadow: 5px 5px 30px #00008B;
+    box-shadow: 10px 10px 20px #00008B;
 }
 
 .right {
@@ -53,9 +53,9 @@
     /*Code for left div*/
     margin-top: 10px;
     margin-right: 20px;
-    border: 5px solid #4B0082;
+    border: 10px solid #4B0082;
     border-radius: 20px;
-    box-shadow: 5px 5px 30px #00008B;
+    box-shadow: 10px 10px 20px #00008B;
 }
 
 #Bhakti {
