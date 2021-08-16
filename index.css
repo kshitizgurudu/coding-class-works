@@ -33,7 +33,7 @@
 /*Code for navigation bar ends*/
 
 .left {
-    width: 500;
+    width: 500px;
     height: 600px;
     background-color: #F4A460;
     float: left;
@@ -43,7 +43,7 @@
 }
 
 .right {
-    width: 500;
+    width: 500px;
     height: 600px;
     background-color: #B0E0E6;
     float: right;
