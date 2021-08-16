@@ -34,7 +34,7 @@
 
 .left {
     width: 500px;
-    height: 700px;
+    height: 1000px;
     background-color: #F4A460;
     float: left;
     /*Code for left div*/
@@ -47,7 +47,7 @@
 
 .right {
     width: 500px;
-    height: 700px;
+    height: 1000px;
     background-color: #B0E0E6;
     float: right;
     /*Code for left div*/
