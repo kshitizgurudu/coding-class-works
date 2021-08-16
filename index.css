@@ -33,23 +33,21 @@
 /*Code for navigation bar ends*/
 
 .left {
-    width: 550px;
+    width: 50%;
     height: 600px;
     background-color: #F4A460;
     float: left;
     /*Code for left div*/
-    margin-left: 5px;
     margin-top: 10px;
     border: 10px solid blueviolet;
 }
 
 .right {
-    width: 550px;
+    width: 50%;
     height: 600px;
     background-color: #B0E0E6;
     float: right;
     /*Code for left div*/
-    margin-right: 5px;
     margin-top: 10px;
     border: 10px solid blueviolet;
 }
