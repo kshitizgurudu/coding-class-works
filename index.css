@@ -34,12 +34,12 @@
 
 .left {
     width: 500px;
-    height: 600px;
+    height: 700px;
     background-color: #F4A460;
     float: left;
     /*Code for left div*/
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     border: 10px solid #FF4500;
     border-radius: 20px;
     box-shadow: 10px 10px 20px #00008B;
@@ -47,12 +47,12 @@
 
 .right {
     width: 500px;
-    height: 600px;
+    height: 700px;
     background-color: #B0E0E6;
     float: right;
     /*Code for left div*/
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 50px;
     border: 10px solid #4B0082;
     border-radius: 20px;
     box-shadow: 10px 10px 20px #00008B;
