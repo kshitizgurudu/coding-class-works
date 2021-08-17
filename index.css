@@ -104,11 +104,12 @@ ul {
 
 button {
     border: 5px solid #FF8C00;
-    border-radius: 20px;
-    background-color: #228B22;
-    padding: 15px;
-    color: #8B4513;
+    border-radius: 17px;
+    background-color: #CD853F;
+    padding: 23px;
+    color: #FF0000;
     font-family: 'Pacifico', cursive;
+    font-size: large;
 }
 
 
@@ -116,11 +117,12 @@ button {
 
 button:hover {
     border: 5px solid #FF8C00;
-    border-radius: 20px;
-    background-color: #1E90FF;
-    padding: 20px;
-    color: #FF4500;
+    border-radius: 17px;
+    background-color: #87CEEB;
+    padding: 23px;
+    color: #B22222;
     font-family: 'Pacifico', cursive;
+    font-size: large;
 }
 
 
