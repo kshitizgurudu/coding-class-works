@@ -101,3 +101,27 @@ body {
 ul {
     list-style-type: none;
 }
+
+button {
+    border: 5px solid #FF8C00;
+    border-radius: 20px;
+    background-color: #228B22;
+    padding: 15px;
+    color: #8B4513;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/*Code for the button*/
+
+button:hover {
+    border: 5px solid #FF8C00;
+    border-radius: 20px;
+    background-color: #1E90FF;
+    padding: 20px;
+    color: #FF4500;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/*Code for the button*/
