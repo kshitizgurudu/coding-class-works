@@ -66,20 +66,22 @@ body {
 
 #Bhakti {
     text-transform: capitalize;
-    text-shadow: 4px 2px 10px blue;
+    text-shadow: 4px 2px 7px blue;
     /*Code for bhakti heading*/
     text-decoration: underline;
     font-family: 'Pacifico', cursive;
     text-align: center;
+    color: #800000;
 }
 
 #education {
     text-transform: capitalize;
-    text-shadow: 4px 2px 10px red;
+    text-shadow: 4px 2px 7px red;
     /*Code for education heading*/
     text-decoration: underline;
     font-family: 'Pacifico', cursive;
     text-align: center;
+    color: #FF4500;
 }
 
 .list1 ul {
@@ -127,3 +129,7 @@ button:hover {
 
 
 /*Code for the button*/
+
+visit {
+    font-family: 'Pacifico', cursive;
+}
