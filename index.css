@@ -131,5 +131,5 @@ button:hover {
 
 #visit {
     font-family: 'Pacifico', cursive;
-    background-clip: padding-box;
+    word-wrap: break-word;
 }
