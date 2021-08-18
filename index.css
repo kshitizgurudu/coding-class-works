@@ -71,7 +71,6 @@ body {
     text-decoration: underline;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #800000;
 }
 
 #education {
@@ -81,7 +80,6 @@ body {
     text-decoration: underline;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #FF4500;
 }
 
 .list1 ul {
@@ -130,6 +128,7 @@ button:hover {
 
 /*Code for the button*/
 
-visit {
+#visit {
     font-family: 'Pacifico', cursive;
+    background-clip: padding-box;
 }
