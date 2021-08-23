@@ -1,0 +1,25 @@
+#Gita {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    color: red;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+}
+
+#About_BG {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    color: #FF4500;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+body {
+    background-color: #87CEFA;
+}
