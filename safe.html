@@ -2,59 +2,102 @@
 <html>
 
 <head>
-    <title>Welcome To The Web Page Links</title>
-    <link rel="stylesheet" href="index.css">
-    <style>
-
-    </style>
-    <script>
-    </script>
+    <title>Welcome to Kshitiz Gurudu's Website</title>
+    <link rel="stylesheet" type="text/css" href="safe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="nav">
+    <!--Code for collapsing navigation button-->
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Contact Us</a>
+</div>
+   <!--Code for collapsing navigation button ends-->
+    <!--Code for navigation bar starts-->
+    <div class="navbar">
         <ul>
-            <li><a href="info.html">The Developer</a></li>
+            <li><a href="https://kshitizgurudu.in/info.html">The Developer</a></li>
             <li><a href="#Menu">Menu</a></li>
-            <li><a href="#Settings">Settings</a></li>
-            <li><a href="#English">English</a></li>
-            <li style="float:right"><a class="active" href="#about">Kshitiz Gurudu</a></li>
+            <li><div id="main">
+  <button class="openbtn" onclick="openNav()">Menu</button>
+</div></li>
+            <li style="float:left"><a class="active" href="#about">Kshitiz Gurudu</a></li>
         </ul>
     </div>
-    <div id="welcome">
-        <h1>Welcome</h1>
-    </div>
-    <div id="education">
-        <h1>Education</h1><br />
-    </div>
-    <ul>
-        <li>
-            <a href="https://kshitizgurudu.in/congo.html">About Democratic Republic of Congo</a><br />
-        </li>
-        <li>
-            <a href="https://kshitizgurudu.in/greenland.html">About Greenland</a><br />
+    <!--Code for navigation bar-->
 
-        </li>
-        <li>
-            <a href="https://kshitizgurudu.in/paries.html">About Prairies</a><br />
-        </li>
-        <li>
-            <a href="https://kshitizgurudu.in/conquer.html">About Conquering Distances</a>
-        </li>
-    </ul><br />
-    <div id="Bhakti">
-        <h1>Bhakti, or Devotional Service to Krishna the Supreme Personality of Godhead
-        </h1><br />
+    <!--Code for left div starts-->
+    <div class="left">
+        <!--Code for education heading starts-->
+        <div id="education">
+            <h1>Education</h1>
+        </div>
+        <!--Code for education heading ends-->
+        <!--Code list1 starts-->
+        <div class="list1">
+            <ul>
+                <li>
+                    <a href="https://kshitizgurudu.in/congo.html">About Democratic Republic of Congo</a><br />
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/greenland.html">About Greenland</a><br />
+
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/paries.html">About Prairies</a><br />
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/conquer.html">About Conquering Distances</a>
+                </li>
+            </ul>
+        </div><br />
+        <!--Code list1 ends-->
     </div>
-    <div>
-    <ul>
-        <li>
-            <a href="https://kshitizgurudu.in/srila.html">About Srila Prabhupada</a><br></li>
-        </li>
-        <a href="https://kshitizgurudu.in/mysbnotes.html">Srimad Bhagavatam</a>
-        </li>
-    </ul>
+    <!--Code for left div ends-->
+
+    <!--Code for right div starts-->
+    <div class="right">
+        <!--Code for bhakti heading starts-->
+        <div id="Bhakti">
+            <h1>Bhakti, or Devotional Service to Krishna the Supreme Personality of Godhead
+            </h1><br />
+        </div>
+        <!--Code for bhakti heading ends-->
+        <!--Code list2 starts-->
+        <div id="list2">
+            <ul>
+                <li>
+                    <a href="https://kshitizgurudu.in/srila.html">About Srila Prabhupada</a><br>
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/prabhupadaessay.html">Glorification of Srila Prabhupada</a>
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/mysbnotes.html">Srimad Bhagavatam</a>
+                </li>
+                <li>
+                    <a href="https://kshitizgurudu.in/verse.html">Bhagavad Gita</a>
+                </li><br><br>
+                <li>For more details, please visit
+                    <a href="https://www.youtube.com/channel/UCe2KWtu6WWUw5SvhcDxyX0A/featured">My Youtube Channel</a>
+                </li>
+            </ul>
+        </div>
+        <!--Code list2 ends-->
     </div>
+    <!--Code for right div ends-->
+<script type="text/javascript">
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 </body>
 
 </html>
